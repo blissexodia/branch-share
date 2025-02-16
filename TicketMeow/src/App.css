@@ -1,0 +1,475 @@
+/* App.css */
+
+/*-------------------------- Navigation bar styles --------------------------*/
+.navbar {
+  display: flex;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+  justify-content: space-evenly;
+
+}
+
+#left-corner {
+  padding-right: 80%;
+}
+
+/* Styles for navigation links */
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  background: none;
+  border: none;
+  font: inherit;
+}
+
+/* Hover effect for navigation links */
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/*-------------------------- Profile page styles --------------------------*/
+.profile-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  margin: 0;
+}
+
+.profile-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 900px;
+  height: 700px;
+}
+
+.profile-card h1  {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 10px 0;
+  padding-right: 40em; 
+}
+
+.profile-card p {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 20px;
+  padding-right: 30em;
+  text-align: left;
+}
+
+.profile-card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  margin: 2em;
+}
+
+.profile-card button:hover {
+  background-color: #0056b3;
+}
+
+.password-change-form {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*-------------------------- Signin/Signup page styles --------------------------*/
+.login-signup-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  margin: 0;
+}
+
+.login-signup-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  padding-bottom: 100px;
+  text-align: center;
+  width: 500px;
+  height: 400px;
+}
+
+.login-card h2  {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.inputBox {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.login-signup-card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  margin: 2em;
+}
+
+.login-signup-card button:hover {
+  background-color: #0056b3;
+}
+
+/*---------------------------- Event page styles ----------------------------*/
+
+.event-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+}
+
+.create-event-button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.event-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.event-item {
+  justify-items: center;
+}
+
+.event-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  width: 30vh;
+  height: 20vh;
+  margin: 10px;
+}
+
+.event-card-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.event-card-category {
+  font-size: 20px;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.event-card-venue {
+  font-size: 20px;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.event-card-open {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  width: 30vh;
+  height: 40dvh;
+  margin: 10px;
+}
+
+.event-card-details {
+  font-size: 15px;
+  margin: 0;
+  text-align: left;
+}
+
+.event-card-details p {
+  font-size: 15px;
+  margin: 5px 0;
+  text-align: left;
+}
+
+.seating-chart-button {
+  margin-top: 12px;
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/*---------------------------- Event Form ----------------------------*/
+.form-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  margin: 0;
+  flex-direction: column;
+}
+
+.form-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  padding-bottom: 100px;
+  text-align: center;
+  width: 500px;
+  height: 550px;
+}
+
+.inputBox {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.form-card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  margin: 2em;
+}
+
+.form-card button:hover {
+  background-color: #0056b3;
+}
+
+
+.search-box {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 50vh;
+  height: 20vh;
+  margin: 0px;
+}
+
+.search-box-row {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 50vh;
+  height: 6.5vh;
+  margin: 0px;
+  
+}
+
+.search-input {
+  display: block;
+  width: 100%;
+  margin: 2px 0;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/*---------------------------- Seating --------------------------------------*/
+
+.seating-chart {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+  margin: 20px auto;
+  gap: 10px;
+}
+
+.seat {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.seat.available {
+  background-color: #fff;
+}
+
+.seat.selected {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.seat.booked {
+  background-color: #f44336;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+.seating-chart-button:hover {
+  background-color: #45a049;
+}
+
+/*---------------------------- Dashboard ----------------------------------*/
+
+
+.dashboard-page {
+  padding: 20px;
+}
+
+.dashboard-panels {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left-panel, .right-panel {
+  width: 40%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  justify-items: center;
+}
+
+.events-list {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+
+/* -------- Update Event Button -------- */
+.update-event-button {
+  padding: 8px 16px;
+  margin: 5px;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  border: 0;
+}
+
+.update-event-button:hover {
+  cursor:pointer;
+}
+
+/* -------- Delete Event Button -------- */
+.delete-event-button {
+  padding: 8px 16px;
+  margin: 5px;
+  background-color: #f44336;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  border: 0;
+}
+
+.delete-event-button:hover {
+  cursor:pointer;
+}
+
+/* -------- Edit Mode -------- */
+.edit-mode {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+.edit-form .input {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.form-card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  margin: 2em;
+}
+
+.form-card button:hover {
+  background-color: #0056b3;
+}
+
+/* -------- Display Mode -------- */
+
+.display-mode {
+  justify-items: center;
+}
+
+
+
